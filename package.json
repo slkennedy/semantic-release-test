@@ -1,11 +1,11 @@
 {
   "name": "semantic-release-test",
-  "version": "0.0.0-development",
-  "description": "testing semantice-release",
+  "version": "0.0.0",
+  "description": "testing semantic-release",
   "main": "index.js",
   "scripts": {
-    "commit": "git-cz", 
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git-cz",
+    "test": "echo \"Error: no test specified\"",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
